@@ -1,8 +1,11 @@
 package Task::MusicBundle;
+BEGIN {
+  $Task::MusicBundle::AUTHORITY = 'cpan:GENE';
+}
 # ABSTRACT: A bundle of MIDI and music modules
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 1;
 
 __END__
@@ -15,7 +18,7 @@ Task::MusicBundle - A bundle of MIDI and music modules
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -87,7 +90,11 @@ L<Music::Gestalt> - Jul 13, 2005
 
 L<Music::Harmonics> - May 11, 2005
 
-L<Music::LilyPondUtil> - Aug 08, 2003
+L<Music::LilyPondUtil>
+
+L<Music::NeoRiemannianTonnetz>
+
+L<Music::Scala>
 
 L<Music::Scales> - Aug 08, 2003
 
@@ -99,7 +106,7 @@ L<Text::Chord::Piano>
 
 =head1 TO DO
 
-* Install in order of reverse dependency?
+* Install in order of reverse dependency somehow?
 
 * Make sub-bundles for C<B::M::MIDI>, C<B::M::Theory>, C<B::M::ID3>, etc?
 

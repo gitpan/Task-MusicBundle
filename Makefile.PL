@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.006;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -11,7 +11,11 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "A bundle of MIDI and music modules",
   "AUTHOR" => "Gene Boggs <gene\@cpan.org>",
-  "BUILD_REQUIRES" => {},
+  "BUILD_REQUIRES" => {
+    "File::Find" => 0,
+    "File::Temp" => 0,
+    "Test::More" => 0
+  },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -43,13 +47,16 @@ my %WriteMakefileArgs = (
     "Music::Gestalt" => 0,
     "Music::Harmonics" => 0,
     "Music::LilyPondUtil" => 0,
+    "Music::NeoRiemannianTonnetz" => 0,
     "Music::Scales" => 0,
     "Music::Tempo" => 0,
     "Music::Tension" => 0,
     "String::Approx" => 0,
-    "Text::Chord::Piano" => 0
+    "Text::Chord::Piano" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

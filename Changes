@@ -1,5 +1,10 @@
 Revision history for Task-MusicBundle
 
-0.01      2013-02-10 20:33:20 America/Los_Angeles
+0.02  2013-05-27
+    - Added Music::NeoRiemannianTonnetz.
+    - Added Music::Scala.
+    - Added handy dzil plugins.
+
+0.01 2013-02-10 20:33:20 America/Los_Angeles
     - Added contents of Bundle::Music to Prereqs.
-    - Minted by Dist::Zilla
+    - Minted by Dist::Zilla.
