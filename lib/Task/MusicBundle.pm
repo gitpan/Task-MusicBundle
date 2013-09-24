@@ -5,7 +5,7 @@ BEGIN {
 # ABSTRACT: A bundle of MIDI and music modules
 use strict;
 use warnings;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 1;
 
 __END__
@@ -18,7 +18,7 @@ Task::MusicBundle - A bundle of MIDI and music modules
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -77,6 +77,8 @@ L<MIDI::Tweaks>
 L<Music::AtonalUtil>
 
 L<Music::Canon>
+
+L<Music::ChordBot>
 
 L<Music::Chord::Namer> - Mar 14, 2006
 

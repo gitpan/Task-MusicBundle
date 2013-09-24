@@ -19,6 +19,7 @@ BEGIN {
     use_ok 'MIDI::Tweaks';
     use_ok 'Music::AtonalUtil';
     use_ok 'Music::Canon';
+    use_ok 'Music::ChordBot';
     use_ok 'Music::Chord::Namer';
     use_ok 'Music::Chord::Note';
     use_ok 'Music::Chord::Positions';
