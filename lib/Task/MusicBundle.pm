@@ -5,12 +5,14 @@ BEGIN {
 # ABSTRACT: A bundle of MIDI and music modules
 use strict;
 use warnings;
-our $VERSION = '0.03';
+our $VERSION = '0.0301';
 1;
 
 __END__
 
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -18,7 +20,7 @@ Task::MusicBundle - A bundle of MIDI and music modules
 
 =head1 VERSION
 
-version 0.03
+version 0.0301
 
 =head1 SYNOPSIS
 
@@ -124,6 +126,8 @@ L<MIDI::XML> - Jan 24, 2003 - This has Tk as a dependency - for an XML module. S
 
 L<Music::Image::Chord> - Oct 03, 2003,
 
+L<Music::PitchNum> - Handy module. Fails `make test` for POD so install with force
+
 L<PDL::Audio>,
 
 L<POE::Framework::MIDI> - Mar 19, 2006,
@@ -140,7 +144,7 @@ Gene Boggs <gene@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Gene Boggs.
+This software is copyright (c) 2014 by Gene Boggs.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
