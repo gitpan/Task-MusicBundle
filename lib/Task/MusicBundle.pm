@@ -2,10 +2,13 @@ package Task::MusicBundle;
 BEGIN {
   $Task::MusicBundle::AUTHORITY = 'cpan:GENE';
 }
+BEGIN {
+  $Task::MusicBundle::AUTHORITY = 'cpan:GENE';
+}
 # ABSTRACT: A bundle of MIDI and music modules
 use strict;
 use warnings;
-our $VERSION = '0.0301';
+our $VERSION = '0.04';
 1;
 
 __END__
@@ -20,7 +23,7 @@ Task::MusicBundle - A bundle of MIDI and music modules
 
 =head1 VERSION
 
-version 0.0301
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -126,7 +129,7 @@ L<MIDI::XML> - Jan 24, 2003 - This has Tk as a dependency - for an XML module. S
 
 L<Music::Image::Chord> - Oct 03, 2003,
 
-L<Music::PitchNum> - Handy module. Fails `make test` for POD so install with force
+L<Music::PitchNum>
 
 L<PDL::Audio>,
 

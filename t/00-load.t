@@ -28,6 +28,7 @@ BEGIN {
     use_ok 'Music::Harmonics';
     use_ok 'Music::LilyPondUtil';
     use_ok 'Music::NeoRiemannianTonnetz';
+    use_ok 'Music::PitchNum';
     use_ok 'Music::Scala';
     use_ok 'Music::Scales';
     use_ok 'Music::Tempo';
