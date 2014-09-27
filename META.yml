@@ -11,7 +11,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141520'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -41,6 +41,7 @@ requires:
   Music::Duration: '0'
   Music::Gestalt: '0'
   Music::Harmonics: '0'
+  Music::Intervals: '0'
   Music::LilyPondUtil: '0'
   Music::NeoRiemannianTonnetz: '0'
   Music::Scales: '0'
@@ -51,7 +52,7 @@ requires:
   perl: '5.006'
   strict: '0'
   warnings: '0'
-version: '0.04'
+version: '0.05'
 x_Dist_Zilla:
   perl:
     version: '5.021002'

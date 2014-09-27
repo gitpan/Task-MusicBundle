@@ -26,6 +26,7 @@ BEGIN {
     use_ok 'Music::Duration';
     use_ok 'Music::Gestalt';
     use_ok 'Music::Harmonics';
+    use_ok 'Music::Intervals';
     use_ok 'Music::LilyPondUtil';
     use_ok 'Music::NeoRiemannianTonnetz';
     use_ok 'Music::PitchNum';

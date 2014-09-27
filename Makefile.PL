@@ -43,6 +43,7 @@ my %WriteMakefileArgs = (
     "Music::Duration" => 0,
     "Music::Gestalt" => 0,
     "Music::Harmonics" => 0,
+    "Music::Intervals" => 0,
     "Music::LilyPondUtil" => 0,
     "Music::NeoRiemannianTonnetz" => 0,
     "Music::Scales" => 0,
@@ -59,7 +60,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -93,6 +94,7 @@ my %FallbackPrereqs = (
   "Music::Duration" => 0,
   "Music::Gestalt" => 0,
   "Music::Harmonics" => 0,
+  "Music::Intervals" => 0,
   "Music::LilyPondUtil" => 0,
   "Music::NeoRiemannianTonnetz" => 0,
   "Music::Scales" => 0,

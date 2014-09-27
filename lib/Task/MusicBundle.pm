@@ -8,7 +8,7 @@ BEGIN {
 # ABSTRACT: A bundle of MIDI and music modules
 use strict;
 use warnings;
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 1;
 
 __END__
@@ -23,7 +23,7 @@ Task::MusicBundle - A bundle of MIDI and music modules
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
@@ -96,6 +96,8 @@ L<Music::Duration>
 L<Music::Gestalt> - Jul 13, 2005
 
 L<Music::Harmonics> - May 11, 2005
+
+L<Music::Intervals>
 
 L<Music::LilyPondUtil>
 

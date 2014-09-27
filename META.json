@@ -4,7 +4,7 @@
       "Gene Boggs <gene@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141520",
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "perl_5"
    ],
@@ -54,6 +54,7 @@
             "Music::Duration" : "0",
             "Music::Gestalt" : "0",
             "Music::Harmonics" : "0",
+            "Music::Intervals" : "0",
             "Music::LilyPondUtil" : "0",
             "Music::NeoRiemannianTonnetz" : "0",
             "Music::Scales" : "0",
@@ -77,7 +78,7 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.04",
+   "version" : "0.05",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.021002"
