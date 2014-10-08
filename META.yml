@@ -44,6 +44,7 @@ requires:
   Music::Intervals: '0'
   Music::LilyPondUtil: '0'
   Music::NeoRiemannianTonnetz: '0'
+  Music::PitchNum: '0'
   Music::Scales: '0'
   Music::Tempo: '0'
   Music::Tension: '0'
@@ -52,10 +53,10 @@ requires:
   perl: '5.006'
   strict: '0'
   warnings: '0'
-version: '0.05'
+version: '0.0501'
 x_Dist_Zilla:
   perl:
-    version: '5.021002'
+    version: '5.018001'
   plugins:
     -
       class: Dist::Zilla::Plugin::GatherDir
@@ -227,15 +228,15 @@ x_Dist_Zilla:
       name: PodSyntaxTests
       version: '5.020'
     -
-      class: Dist::Zilla::Plugin::NoTabsTests
+      class: Dist::Zilla::Plugin::Test::NoTabs
       config:
         Dist::Zilla::Plugin::Test::NoTabs:
-          filename: xt/release/no-tabs.t
+          filename: xt/author/no-tabs.t
           finder:
             - ':InstallModules'
             - ':ExecFiles'
             - ':TestFiles'
-      name: NoTabsTests
+      name: Test::NoTabs
       version: '0.09'
     -
       class: Dist::Zilla::Plugin::EOLTests

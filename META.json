@@ -57,6 +57,7 @@
             "Music::Intervals" : "0",
             "Music::LilyPondUtil" : "0",
             "Music::NeoRiemannianTonnetz" : "0",
+            "Music::PitchNum" : "0",
             "Music::Scales" : "0",
             "Music::Tempo" : "0",
             "Music::Tension" : "0",
@@ -78,10 +79,10 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.05",
+   "version" : "0.0501",
    "x_Dist_Zilla" : {
       "perl" : {
-         "version" : "5.021002"
+         "version" : "5.018001"
       },
       "plugins" : [
          {
@@ -300,10 +301,10 @@
             "version" : "5.020"
          },
          {
-            "class" : "Dist::Zilla::Plugin::NoTabsTests",
+            "class" : "Dist::Zilla::Plugin::Test::NoTabs",
             "config" : {
                "Dist::Zilla::Plugin::Test::NoTabs" : {
-                  "filename" : "xt/release/no-tabs.t",
+                  "filename" : "xt/author/no-tabs.t",
                   "finder" : [
                      ":InstallModules",
                      ":ExecFiles",
@@ -311,7 +312,7 @@
                   ]
                }
             },
-            "name" : "NoTabsTests",
+            "name" : "Test::NoTabs",
             "version" : "0.09"
          },
          {
